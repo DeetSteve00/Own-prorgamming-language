@@ -1,0 +1,41 @@
+! How to run:
+!	You must first open command prompt (Assuming you're using Windows, since the interpreter doesn't work on any other OS)
+!	Then, you must go to the directory where the interpreter is or set your path to its location
+!	Now type in the command prompt: "(Filename of interpreter) (File path to program)" (File extension doesn't matter, the interpreter assumes its a text document)
+!	You can also test the functions using: "(Filename of interpreter) con" (Crtl + C to exit this mode)
+!	The results must appear in the console after running program.
+
+! Syntax:
+!	VAR: Define a variable, instead of names, use numbers to reference them
+!	INP: Input a number and save it to a variable
+!	OUT: Print stuff, use a number to reference a variable, or use the " " to output a string
+!	NLN: New line
+!	END: End the program
+! To make a comment, use '!' to set everything at it's right as a comment until the end of the line.
+! There must be no spacing between the beggining of the line and the function called
+! There are a maximum of 999 variables and the max value of a variable is also 999
+
+
+! HelloWorld with line break example:
+!	OUT "Hello World!"
+!	NLN
+
+! Variables example:
+!	VAR 1 10 !Set the variable #1 to 10
+!	VAR 7 12 !Set the variable #7 to 12
+!
+!	OUT "Variable #1 is: "
+!	OUT 1 !Output the variable #1's value
+!	NLN
+!	OUT "While the variable #7 is: " 
+!	OUT 7	!Output variable #7's value
+
+! Input example:
+!	VAR 14 123 !Set variable #14 to 123
+!	OUT "Variable #14 is: "
+!	OUT 14
+!	NLN
+!	INP 14 !Input the console a number, and save it on variable #14+
+!	NLN
+!	OUT "Now, the variable #1 is: "
+!	OUT 14
