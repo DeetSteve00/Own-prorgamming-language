@@ -18,3 +18,4 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
   - If statements
     - Add aritmethic operators (If possible)
   - **"Clean"** the interpreter's code
+  - Fix the comments issue 
