@@ -36,7 +36,7 @@ SYNTAX_FUNCTION printOut(char line[]) {
     out[i] = '\0';
     if(line[4] != STRING) {
 		char varLocation[3];
-        for(int i = 4; line[i] != '\0'; i++) {
+        for(int i = 4; line[i] != ('\0' || '!'); i++) {
             if(line[i] == (STRING || LINEBREAK)) SyntaxError(OUT);
             varLocation[i - 4] = line[i];
         }
@@ -46,7 +46,7 @@ SYNTAX_FUNCTION printOut(char line[]) {
 }
 SYNTAX_FUNCTION inputVar(char line[]) {
     char varLocation[3];
-    for(int i = 4; line[i] != '\0'; i++) {
+    for(int i = 4; line[i] != ('\0' || '!'); i++) {
         if(line[i] == (STRING || LINEBREAK)) SyntaxError(OUT);
         varLocation[i - 4] = line[i];
     }
@@ -64,7 +64,7 @@ SYNTAX_FUNCTION defineVar(char line[]) {
         varLength++;
     }
     int varLocation = atoi(input);
-    for(int i = 5 + varLength; line[i] != '\0'; i++) {
+    for(int i = 5 + varLength; line[i] != ('\0' || '!'); i++) {
         if(line[i] == (STRING ||LINEBREAK)) SyntaxError(VAR);
         input[i - 5 - varLength] = line[i];
     }
