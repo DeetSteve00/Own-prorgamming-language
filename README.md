@@ -10,4 +10,5 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
 ```
 - Being on a Windows OS
 - Having a compiler that supports getch(); (Preferly, GCC)
+- Basic knowledge of the command prompt (cmd.exe)
 ```
