@@ -12,3 +12,9 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
 - Having a compiler that supports getch(); (Preferly, GCC)
 - Basic knowledge of the command prompt (cmd.exe)
 ```
+
+**To-do list:**
+  - Add every Syntax error possible
+  - If statements
+    - Add aritmethic operators (If possible)
+  - **"Clean"** the interpreter's code
