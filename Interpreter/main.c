@@ -10,12 +10,12 @@
 
 #include "interpreter.h"
 
-// Interpreter function declarations:
-    INTERPRETER SyntaxError(int error /*Syntax error macros*/);
+/* Interpreter function declarations:
+    INTERPRETER SyntaxError(int error);
     INTERPRETER endProgram();
     INTERPRETER readProgram(char file[]);
     INTERPRETER command(char code[]);
-//
+*/
 
 SYNTAX_FUNCTION printOut(char line[]) {
     int i = 0;
