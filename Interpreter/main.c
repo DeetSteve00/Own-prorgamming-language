@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
+FILE * program;
 
 // Special symbols
     #define STRING '"'
