@@ -11,6 +11,7 @@
     #define INTERPRETER int
     #define SYNTAX_FUNCTION void
     INTERPRETER varList[300]; // Max vars = 300
+    INTERPRETER SyntaxError(int error);
 //
 
 SYNTAX_FUNCTION printOut(char line[]) {
@@ -58,7 +59,6 @@ SYNTAX_FUNCTION defineVar(char line[]) {
     varList[varLocation] = varValue;
 }
 
-// MAIN
 int main(int argc, char* argv[]) {
     if(argc < 1) return 1;
     readProgram(argv[1]);
