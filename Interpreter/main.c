@@ -1,21 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <conio.h>
+
 // Special symbols
     #define STRING '"'
     #define LINEBREAK '\n' // '\n'
     #define SPACE 32 // ' '
 // PROGRAM
-    #define INTERPRETER void
+    #define INTERPRETER int
     #define SYNTAX_FUNCTION void
     INTERPRETER varList[300]; // Max vars = 300
 //
-
-#include "interpreter.h"
-
-/* Interpreter function declarations:
-    INTERPRETER SyntaxError(int error);
-    INTERPRETER endProgram();
-    INTERPRETER readProgram(char file[]);
-    INTERPRETER command(char code[]);
-*/
 
 SYNTAX_FUNCTION printOut(char line[]) {
     int i = 0;
@@ -69,3 +65,5 @@ int main(int argc, char* argv[]) {
     getch();
     return 0;
 }
+
+#include "interpreter.h"
