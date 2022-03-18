@@ -12,7 +12,14 @@
     #define SYNTAX_FUNCTION void
     INTERPRETER varList[300]; // Max vars = 300
     INTERPRETER SyntaxError(int error);
+// FUNCTION MACROS
+    #define OUT 1
+    #define VAR 2
+    #define INP 3
+    #define READ 4
+    #define NO_FUNCTION 5
 //
+
 
 SYNTAX_FUNCTION printOut(char line[]) {
     int i = 0;

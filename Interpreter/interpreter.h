@@ -3,14 +3,6 @@
 
 FILE * program;
 
-// FUNCTION MACROS
-    #define OUT 1
-    #define VAR 2
-    #define INP 3
-    #define READ 4
-    #define NO_FUNCTION 5
-//
-
 INTERPRETER command(char code[]) {
     char keyWord[4] = {code[0], code[1], code[2], '\0'};
     if(strcmp(keyWord, "VAR") == 0) {
