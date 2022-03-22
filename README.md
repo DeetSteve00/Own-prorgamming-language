@@ -15,7 +15,7 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
 
 **To-do list:**
   - Add every Syntax error possible
-  - If statements
-    - Add aritmethic operators (If possible)
+  - Add aritmethic operators (If possible)
+    - If statements **┘**
   - **"Clean"** the interpreter's code
-  - Fix the comments issue 
+  - Fix the comments issue (DONE)
