@@ -13,7 +13,7 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
 
 **To-do list:**
   - Add every Syntax error possible **(DONE)**
-  - Add aritmethic operators (If possible) **(Added sum and substraction)**
+  - Add aritmethic operators **(Added sum and substraction, I can add multiplication and division but i think people can figure it out)**
     - If statements **┘**
   - **"Clean"** the interpreter's code
   - Fix the comments issue **(DONE)**
