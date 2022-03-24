@@ -9,11 +9,12 @@
 !	VAR: Define a variable, instead of names, use numbers to reference them
 !	INP: Input a number and save it to a variable
 !	OUT: Print stuff, use a number to reference a variable, or use the " " to output a string
+! SET: Command to set target variable as the result of an operation.
 !	NLN: New line
 !	END: End the program
 ! To make a comment, use '!' to set everything at it's right as a comment until the end of the line.
 ! There must be no spacing between the beggining of the line and the function called
-! There are a maximum of 999 variables and the max value of a variable is also 999
+! There are a maximum of 300 variables
 
 
 ! HelloWorld with line break example:
@@ -39,3 +40,12 @@
 !	NLN
 !	OUT "Now, the variable #1 is: "
 !	OUT 14
+
+! Operations example:
+! OUT "Number #1: "
+! INP 1
+! OUT "Number #2: "
+! INP 2
+! SET+ 1 2 !(This sums the value of variable #1 & #2 and stores the relust on variable #1), the symbol right after SET is the operation.
+! OUT "Result of sum: "
+! OUT 1
