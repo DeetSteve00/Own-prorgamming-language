@@ -46,6 +46,6 @@
 ! INP 1
 ! OUT "Number #2: "
 ! INP 2
-! SET+ 1 2 !(This sums the value of variable #1 & #2 and stores the relust on variable #1), the symbol right after SET is the operation.
+! SET+ 1 2 !This sums the value of variable #1 & #2 and stores the result on variable #1, the symbol right after SET is the operation.
 ! OUT "Result of sum: "
 ! OUT 1
