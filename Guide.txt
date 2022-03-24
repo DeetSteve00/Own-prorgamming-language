@@ -9,7 +9,7 @@
 !	VAR: Define a variable, instead of names, use numbers to reference them
 !	INP: Input a number and save it to a variable
 !	OUT: Print stuff, use a number to reference a variable, or use the " " to output a string
-! SET: Command to set target variable as the result of an operation.
+!	SET: Command to set target variable as the result of an operation.
 !	NLN: New line
 !	END: End the program
 ! To make a comment, use '!' to set everything at it's right as a comment until the end of the line.
