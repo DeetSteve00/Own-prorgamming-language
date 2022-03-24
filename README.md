@@ -9,13 +9,13 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
 `Requirements`:
 ```
 - Being on a Windows OS
-- Having a compiler that supports getch(); (Preferly, GCC)
+- Having a compiler that supports getch(); (Preferly, MinGW GCC)
 - Basic knowledge of the command prompt (cmd.exe)
 ```
 
 **To-do list:**
-  - Add every Syntax error possible
-  - Add aritmethic operators (If possible)
+  - Add every Syntax error possible **(DONE)**
+  - Add aritmethic operators (If possible) **(Added sum and substraction)**
     - If statements **┘**
   - **"Clean"** the interpreter's code
-  - Fix the comments issue (DONE)
+  - Fix the comments issue **(DONE)**
