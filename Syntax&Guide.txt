@@ -2,7 +2,7 @@
 !	You must first open command prompt (Assuming you're using Windows, since the interpreter doesn't work on any other OS)
 !	Then, you must go to the directory where the interpreter is or set your path to its location
 !	Now type in the command prompt: "(Filename of interpreter) (File path to program)" (File extension doesn't matter, the interpreter assumes its a text document)
-! (Even this guide is a valid program that executes nothing)
+!	(Even this guide is a valid program that executes nothing)
 !	You can also test the functions using: "(Filename of interpreter) con" (Crtl + C to exit this mode)
 !	The results must appear in the console after running program.
 
