@@ -48,9 +48,9 @@ SYNTAX_FUNCTION(void) printOut(char line[]) {
 }
 SYNTAX_FUNCTION(void) inputVar(char line[]) {
     char varLocation[3];
-    for(int i = 4; line[i] != '\0'; i++) {
+    for(int i = 3; line[i] != '\0'; i++) {
         if(line[i] == (STRING || LINEBREAK)) SyntaxError(INP);
-        varLocation[i - 4] = line[i];
+        varLocation[i - 3] = line[i];
     }
     int varLoc = atoi(varLocation);
     char input[1000];
