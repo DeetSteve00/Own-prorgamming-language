@@ -37,7 +37,7 @@ COMPILER_FUNCTION(int) command(char code[]) {
     char keyWord[4] = {code[0], code[1], code[2], '\0'};
     if(strcmp(keyWord, "VAR") == 0) {
         defineVar(code);
-    } else if(strcmp(keyWord, "INP") == 0) {
+    } else if(strcmp(keyWord, "IN ") == 0) {
         inputVar(code);   
     } else if(strcmp(keyWord, "OUT") == 0) {
         printOut(code);
