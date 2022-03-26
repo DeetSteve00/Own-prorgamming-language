@@ -16,4 +16,4 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
   - Add aritmethic operators **(Added sum and substraction, I can add multiplication and division but i think people can figure it out)**
     - If statements **┘**
   - **"Clean"** the interpreter's code *(It looks like this will be on to-do list forever)*
-  - Fix the comments issue **(DONE)**
+  - Fix the comments issue **(DONE)** 
