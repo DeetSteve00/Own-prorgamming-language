@@ -1,4 +1,4 @@
-# Own-prorgamming-language
+# Own-programming-language
 Making my own "programming language" in C
 
 There's the interpreter on [Interpreter.c](https://github.com/DeetSteve00/Own-prorgamming-language/blob/main/Interpreter.c "INTERPRETER.C")
