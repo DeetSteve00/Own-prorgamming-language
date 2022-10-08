@@ -17,3 +17,5 @@ There's also a guide on the language itself on [Guide.txt](https://github.com/De
   - If-else statements
   - **"Clean"** the interpreter's code *(It looks like this will be on to-do list forever)*
   - Fix the comments issue **(DONE)** 
+
+`So apparently, the repository itself has a spelling mistake in "prorgamming"`
